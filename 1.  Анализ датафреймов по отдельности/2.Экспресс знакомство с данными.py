@@ -1,0 +1,16 @@
+import pandas as pd
+
+pd.set_option('display.width', 400)
+pd.set_option('display.max_columns', 10)
+pd.set_option('display.max_columns', None)
+products = pd.read_csv("D:\\Stepik\\Python_Pandas\\files\\Products.csv", sep=';')
+orders = pd.read_csv("D:\\Stepik\\Python_Pandas\\files\\Orders.csv", sep=';')
+order_details = pd.read_csv("D:\\Stepik\\Python_Pandas\\files\\Order_details.csv", sep=';')
+customers = pd.read_csv("D:\\Stepik\\Python_Pandas\\files\\Customers.csv", sep=';')
+employees = pd.read_excel("D:\\Stepik\\Python_Pandas\\files\\Employees.xlsx", sheet_name='Лист3')
+# print(products.shape)
+# print(len(products))
+# print(products.dtypes)
+# print(products.head(10))
+# print(orders.dtypes)
+# print(customers.head(25))
