@@ -1,1 +1,1 @@
-# Курс Python анализ данных с Pandas
+# Курс: Python: анализ данных с Pandas
